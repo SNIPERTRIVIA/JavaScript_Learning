@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+body{
+    background-color: #111;
+    color: #fff;
+}
+#box{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(90,4,255);
+    border: 2px solid white;
+    border-radius: 15px;
+}
+button{
+    padding:10px 20px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: greenyellow;
+}

@@ -353,7 +353,14 @@
         age : 25,
         city :"NYC"
     }
-    console.log(person.name)
-    console.log(person.age)
-    console.log(person.city)
+    // console.log(person.name)
+    // console.log(person.age)
+    // console.log(person.city)
+
+//10. Use `setTimeout()` to log `"Time’s up!"` after 2 seconds.
+
+    setTimeout(function (){
+        console.log("time's up")
+        
+    },2000)
 

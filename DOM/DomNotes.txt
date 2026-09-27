@@ -1,0 +1,51 @@
+DOM - Documnet Object Model (Fronted Ki JS)
+
+DOM 4 Pillars for fundamentals 
+
+1. Selection Of an Element
+2. Changing HTML 
+3. Changing CSS
+4. Event Listeners 
+
+
+
+// DOM 4 Pillars for fundamentals 
+
+// 1. Selection Of an Element
+- querySelector
+- getElementById
+- getElementsByClassName // not much use 
+- querySelectorAll // Best to use
+
+//              camel case
+   var h1 =  document.querySelector('h1')
+//    console.log(h1)
+    var box = document.querySelector('#box')
+    // box.innerHTML = 'HEY HEY '
+
+// 2. Changing HTML 
+- textContent
+- innerHTML
+
+    h1.innerHTML = 'DOM'
+
+// 3. Changing CSS
+    h1.style.color = 'Gold'
+    h1.style.background = "#222"
+    h1.style.cursor="pointer";
+    // box.style.backgroundColor = 'orange'
+
+    
+// 4. Event Listeners 
+
+    h1.addEventListener('click',function(){ 
+        h1.innerHTML = "Learning DOM"
+    })
+      
+
+// Math.random 
+
+    // var a = Math.random()*1000
+    // var b = Math.floor(a)//random number me se point ke aage ka remove karne me kaam aata hai
+    // var b = Math.floor(Math.random()*100) // single line code for above code 
+    // console.log(b)
