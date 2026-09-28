@@ -48,28 +48,56 @@
 
 // Array Of Object
 
-    var arr = [
-        {
-            team:'CSK',
-            primary:'Yellow',
-            secondary:'blue'
-        },
-        {
-            team:'RCB',
-            primary:'Red',
-            secondary:'black'
+    // var arr = [
+    //     {
+    //         team:'CSK',
+    //         primary:'Yellow',
+    //         secondary:'blue'
+    //     },
+    //     {
+    //         team:'RCB',
+    //         primary:'Red',
+    //         secondary:'black'
 
-        },
-        {
-            team:'MI',
-            primary:'Blue',
-            secondary:'gold'
+    //     },
+    //     {
+    //         team:'MI',
+    //         primary:'Blue',
+    //         secondary:'gold'
 
-        },
-        {
-            team:'KKR',
-            primary:'purple',
-            secondary:'gold'
-        }  
-    ]
-    console.log(arr[0].team)
+    //     },
+    //     {
+    //         team:'KKR',
+    //         primary:'purple',
+    //         secondary:'gold'
+    //     }  
+    // ]
+    // console.log(arr[0].team)
+
+
+    // Create Element // iska matalb koi chiz html me add karna like h1, div etc...
+
+    // var btn = document.querySelector('button')
+    // btn.addEventListener('click',function(){
+    // var h1 = document.createElement('h1')
+    // h1.innerHTML = "Hello from JS"
+    // console.log(h1)
+    // })
+
+
+    // Appending a child // is ka matalb wo HTML file me jaa ke add ho jaye gaa 
+
+    // var h1 = document.createElement('h1')
+    // h1.innerHTML ="Hello from JS"
+
+    // var main = document.querySelector('main')
+
+    // main.appendChild(h1)
+
+    
+    var div = document.createElement('div')
+    div.style.height = '200px'
+    div.style.width = '200px'
+    div.style.backgroundColor = 'red'
+    var main= document.querySelector('main')
+    main.appendChild(div)
